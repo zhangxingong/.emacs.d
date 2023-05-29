@@ -1,0 +1,24 @@
+#+TITLE:todo.today
+#+STARTUP: indent
+#+STARTUP:overview
+#+STARTUP: showeverything
+
+* Plan
+** DONE fix ppt upload                                             :线上bug:
+DEADLINE: <2023-05-15 周一 16:30>
+- State "DOING"      from "TODO"       [2023-05-15 周一 16:37] \\
+  aaaa
+- State "TODO"       from "DONE"       [2023-05-15 周一 16:37]
+- Note taken on [2023-05-15 周一 16:35] \\
+  occure on create easy course.
+- Note taken on [2023-05-15 周一 16:35] \\
+  this is note
+:LOGBOOK:
+CLOCK: [2023-05-15 周一 16:21]--[2023-05-15 周一 16:29] =>  0:08
+:END:
+
+* Task
+
+* Event
+
+* Note

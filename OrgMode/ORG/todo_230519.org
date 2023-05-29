@@ -1,0 +1,37 @@
+#+TITLE:todo.today
+#+STARTUP: indent
+#+STARTUP:overview
+#+STARTUP: showeverything
+
+* 2023-05-19 星期五
+
+* Plan
+
+* Task
+** DONE ASP-7992
+DEADLINE: <2023-05-19 周五 10:20>
+:PROPERTIES:
+:Effort:   1d 6:00
+:END:
+- State "DOING"      from "TODO"       [2023-05-19 周五 09:51] \\
+  部门课程显示问题
+:LOGBOOK:
+CLOCK: [2023-05-19 周五 09:52]--[2023-05-19 Fri 17:52] =>  8:00
+CLOCK: [2023-05-19 周五 09:50]--[2023-05-19 周五 09:51] =>  0:01
+:END:
+[2023-05-19 周五 09:50]
+** DONE 部门课程显示问题
+DEADLINE: <2023-05-19 Fri 15:00>
+:PROPERTIES:
+:Effort:   1:00
+:END:
+- State "DOING"      from "TODO"       [2023-05-19 Fri 14:02] \\
+  权限显示问题
+:LOGBOOK:
+CLOCK: [2023-05-19 Fri 14:02]
+CLOCK: [2023-05-19 Fri 14:00]--[2023-05-19 Fri 14:01] =>  0:01
+:END:
+[2023-05-19 Fri 14:00]
+* Event
+
+* Note

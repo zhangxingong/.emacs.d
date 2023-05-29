@@ -1,0 +1,38 @@
+#+TITLE:todo.today
+#+STARTUP: indent
+#+STARTUP:overview
+#+STARTUP: showeverything
+
+* Plan
+** DONE 整理要发布的文件
+- State "DOING"      from "TODO"       [2023-05-16 周二 15:45]
+:LOGBOOK:
+CLOCK: [2023-05-16 周二 15:34]--
+:END:
+- State "DOING"      from "TODO"       [2023-05-16 周二 15:34] \\
+  ASP-8015 需要更新到正式
+** DONE 2022退税
+- State "DOING"      from "TODO"       [2023-05-16 周二 17:22] \\
+  回家处理
+* Task
+** DONE ASP-8015
+DEADLINE: <2023-05-16 周二 10:20>
+:PROPERTIES:
+:Effort:   00:50
+:END:
+- State "DOING"      from "TODO"       [2023-05-16 周二 09:38] \\
+  论坛有帮助显示异常
+:LOGBOOK:
+CLOCK: [2023-05-16 周二 09:39]--[2023-05-16 周二 11:09] =>  1:30
+CLOCK: [2023-05-16 周二 09:38]--[2023-05-16 周二 09:39] =>  0:01
+:END:
+[2023-05-16 周二 09:38]
+** DONE reading qiye weixin
+- State "DOING"      from "TODO"       [2023-05-22 Mon 15:04]
+:LOGBOOK:
+CLOCK: [2023-05-16 周二 17:21]--[2023-05-16 周二 17:22] =>  0:01
+:END:
+[2023-05-16 周二 17:21]
+* Event
+
+* Note

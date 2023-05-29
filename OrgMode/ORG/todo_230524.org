@@ -1,0 +1,27 @@
+#+TITLE:todo.today
+#+STARTUP: indent
+#+STARTUP:overview
+#+STARTUP: showeverything
+
+* 2023-05-24 Wednesday
+
+* Plan
+** DOING 企业微信头像
+DEADLINE: <2023-05-24 Wed 11:00> SCHEDULED: <2023-05-24 Wed 10:00>
+- State "DOING"      from "TODO"       [2023-05-24 Wed 15:38]
+* Task
+
+* Event
+** 课程方案失效后任务没过滤
+DEADLINE: <2023-05-24 Wed 11:20>
+:LOGBOOK:
+CLOCK: [2023-05-24 Wed 10:00]--[2023-05-24 Wed 11:42] =>  0:01
+:END:
+[2023-05-24 Wed 15:40]
+[[file:~/.emacs.d/OrgMode/ORG/todo_230524.org::*企业微信头像][企业微信头像]]
+* Note
+**  学习vimscript, elisp
+Entered on [2023-05-24 Wed 15:37]
+-天气: 晴朗
+-场地:办公室
+-心情:好

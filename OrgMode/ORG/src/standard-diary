@@ -1,0 +1,22 @@
+;;Day info
+;; 日出而作, 日落而息
+%%(diary-sunrise)
+%%(diary-sunset)
+%%(diary-lunar-phases)
+%%(diary-day-of-year)
+%%(diary-workon)
+%%(diary-workoff)
+;;
+%%(diary-iso-date)
+;;中国农历
+%%(diary-chinese-date)
+%%(diary-anniversary 04 18 1990) Ethan's birthday (%d years old)
+%%(diary-remind '(diary-anniversary 04 18 1990) 7) Ethan's anniversary
+%%(diary-float t 0 1) weekend off
+%%(diary-float t 6 1) weekend off
+%%(diary-float t 0 2) weekend off
+%%(diary-float t 6 2) weekend off
+%%(diary-float t 0 3) weekend off
+%%(diary-float t 6 3) weekend off
+%%(diary-float t 0 4) weekend off
+%%(diary-float t 6 4) weekend off

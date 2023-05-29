@@ -1,0 +1,9 @@
+# Ignore all the files
+.history
+.emacs.desktop
+.gitmodules
+recentf
+cache
+auto-save-list
+.git
+eln-cache

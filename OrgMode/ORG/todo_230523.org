@@ -1,0 +1,17 @@
+#+TITLE:todo.today
+#+STARTUP: indent
+#+STARTUP:overview
+#+STARTUP: showeverything
+
+* 2023-05-23 Tuesday
+
+* Plan
+** DOING 增加企业微信头像
+- State "DOING"      from "TODO"       [2023-05-23 Tue 10:04] \\
+  增加二维码授权登陆
+[[file:d:/xgzhang/java/workspace/svn/Elafs/branches/asp/web/WEB-INF/jsp/portal/org/avatarPage.jsp::<%if (isSuportWeixin) {%>]]
+* Task
+
+* Event
+
+* Note

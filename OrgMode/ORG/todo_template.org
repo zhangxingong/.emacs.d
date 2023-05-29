@@ -1,0 +1,14 @@
+#+TITLE:todo.today
+#+STARTUP: indent
+#+STARTUP:overview
+#+STARTUP: showeverything
+
+* Plan
+
+* Task
+
+* Event
+
+* Note
+
+

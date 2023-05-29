@@ -1,0 +1,9 @@
+#+TITLE:todo.today
+#+STARTUP:overview
+** Plan
+
+* Task
+
+* Event
+
+* Note

@@ -1,0 +1,18 @@
+#+TITLE:todo.today
+#+STARTUP: indent
+#+STARTUP:overview
+#+STARTUP: showeverything
+
+* Plan
+
+* Task
+
+* Event
+**  正式论坛回答用id创建时间排序产生混乱
+DEADLINE: <2023-05-17 周三 10:58>
+ 产生原因hibernate.sequence有个20个的缓存
+ 不同服务同时取id造成的不一致
+[2023-05-17 周三 10:48]
+**
+[2023-05-17 周三 14:19]
+* Note

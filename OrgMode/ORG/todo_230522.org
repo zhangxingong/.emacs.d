@@ -1,0 +1,223 @@
+#+TITLE:todo.today
+#+STARTUP: indent
+#+STARTUP:overview
+#+STARTUP: showeverything
+
+* 2023-05-22 Monday
+
+* Plan
+* TODO [[file:~/.emacs.d/OrgMode/ORG/todo_230522.org::*Plan][Plan 微信头像]
+* Task
+** DONE learn GTD
+:LOGBOOK:
+CLOCK: [2023-05-22 Mon 09:53]--[2023-05-22 Mon 09:54] =>  0:01
+:END:
+[2023-05-22 Mon 09:53]
+[[file:~/.emacs.d/OrgMode/ORG/todo_230522.org::*学习GTD][学习GTD]]
+** DOING fix 部门课程数量
+- State "DOING"      from "TODO"       [2023-05-22 Mon 10:01] \\
+  可能是缓存问题
+[2023-05-22 Mon 09:59]
+[[file:~/.emacs.d/OrgMode/ORG/todo_230522.org::*learn GTD][learn GTD]]
+* Event
+**  leanr gtd
+:LOGBOOK:
+CLOCK: [2023-05-22 Mon 09:53]--[2023-05-22 Mon 09:53] =>  0:00
+:END:
+[2023-05-22 Mon 09:52]
+[[file:~/.emacs.d/OrgMode/ORG/todo_230522.org::*学习GTD][学习GTD]]
+** 迟到三次
+[2023-05-22 Mon 15:51]
+[[file:~/.emacs.d/OrgMode/ORG/todo_230522.org::*fix 部门课程数量][fix 部门课程数量]]
+* Note
+** 阅读gtd
+Entered on [2023-05-22 Mon 09:42]
+-天气: 下雨
+-场地:%^{场所}
+-心情: 压抑
+** 学习GTD
+define:
+GETTING THINGS DONE® is a personal productivity methodology that redefines how you approach your life and work.
+1) step1:
+STEP 1
+CAPTURE
+Collect what has your attention
+Write, record, or gather any and everything that has your attention into a collection tool.
+2) step2:
+
+STEP 2
+CLARIFY
+Process what it means
+Is it actionable? If so, decide the next action and project (if more than one action is required). If not, decide if it is trash, reference, or something to put on hold.
+
+3) step:3
+STEP 3
+ORGANIZE
+Put it where it belongs
+Park reminders of your categorized content in appropriate places.
+
+4) step:4
+
+   STEP 4
+REFLECT
+Review frequently
+Update and review all pertinent system contents to regain control and focus.
+
+5) step：5
+STEP 5
+ENGAGE
+Simply do
+Use your trusted system to make action decisions with confidence and clarity.
+
+purpose:
+GETTING THINGS DONE® 是一种个人生产力方法，它重新定义了您对待生活和工作的方式。
+
+** Elisp 基础
+1. S表达式 [[*S表达式][S表达式]]
+2. 原子类型[[*变量作用域][ 变量作用域]]
+3. 变量、函数、lambda
+4. 特殊表达式[[*声明函数][声明函数]]
+5. 列表  [[*列表][列表]]  [[*执行过程][执行过程]]
+6. 执行方法
+7. 执行过程 [[*执行过程][执行过程]]
+8. 调试 [[*调试][deug调试]]
+9. 画家与黑客 [[*黑客与画家 保罗：语言特性][黑客与画家 保罗：语言特性]]
+
+- [[*特殊表达式][特殊表达式]]
+- [[*lambda函数][lambda函数]]
+- [[*声明局部变量][声明局部变量]]
+- [[*变量类型][变量类型]]
+- [[*声明全局变量][声明全局变量]]
+- [[*原子][原子]]
+- [[*Elisp 基础][Elisp 基础]]
+
+
+***** S表达式
+前缀表示法，波兰式
+（+ 2 2）
+ (= 2 2)
+（expt 2 3）
+(/= 2 3)
+(and 1 0)
+(or t t)
+(not nil)
+(floor )
+(ceiling )
+(round )
+(truncate )
+(floatp )
+(integer p)
+(zerop 0)
+特殊符合 t nil
+(eq ) (equal )比较的是相同的类型， 等于号比较不同类型的number
+(string-to-number)
+***** 原子
+字符串，数字，符号
+
+***** 声明全局变量
+(setq name=value)
+(defvar name value "")
+(defconst name value "")
+
+****** 变量类型
+- [ ] 全局变量
+- [ ] let局部变量
+- [ ] buffer-local
+- [ ] 函数参数
+
+******* 变量作用域
+let变量
+infiniteScope 整个表达书有效
+词法作用域 在函数内，块里有效
+***** 声明函数
+(defun 函数名(函数列表) 函数体)
+（函数名 函数参数）
+函数列表 &rest &optional
+返回值最后一个S-表达式
+
+***** 声明局部变量
+(let (bind) (body))
+(let* (bind)(body))
+
+***** lambda函数
+(lambda (参数列表)(body))
+
+***** 特殊表达式
+(if (test) (true body) (false body))
+(when (test) a b c )
+(unless (test) a b c)
+(cond ((case 1) body) ((case 2) body) (t body) )
+(while test body)
+(mapcar 'fun body)
+(mapc 'fun body)
+(dolist (item result) body)
+(dotimes (i count) body)
+
+***** 列表
+创建向量
+(make-vector size init)
+(make-list size init)
+(list a b c )
+
+****** 获取
+car
+cdr
+nth
+pop
+****** 截取
+nthcdr
+last
+butlast
+****** 拼接
+cons append
+****** 修改
+SCHEDULED: <2023-05-22 Mon>
+setcar
+setcdr
+nbutlast 删除
+pop
+
+***** 执行过程
+evalate-dispatch
+case is self-eval
+case is eval-vaiable
+case is special-form
+     函数调用
+     宏展开
+     特殊规则
+
+***** 调试
+default-debug
+debugger-on-entry
+debugger-on-exist
+(debug)
+edebug
+
+***** 黑客与画家 保罗：语言特性
+条件
+函数
+递归
+变量动态性
+垃圾回收
+列表组成
+符号
+符合和常量组成表达树
+语言在编译期，读取期，运行期都可用
+** Emacs 定制
+ - 键盘绑定
+ - [ ] 定制主题，字体，modernLine
+ - [ ] (defun name()interact 可以交互
+ - [ ] 符号绑定功能
+ - [ ] 默认值设定
+ - [ ] 自动加载 autoload
+ - [ ] 包管理 package-install package-remove package-install-file
+ - [ ] org-mode 任务管理
+
+
+Entered on [2023-05-22 Mon 09:44]
+-天气: 阴天
+-场地:办公
+-心情:压抑
+ [[file:~/.emacs.d/OrgMode/ORG/todo_230522.org::*Note][Note]][[file:todo_230518.org][上一个]]
+
+* Footnotes C-c C-x f
