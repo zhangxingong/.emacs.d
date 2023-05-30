@@ -1,0 +1,56 @@
+(progn
+(switch-to-buffer-other-window "*test*")
+(erase-buffer)
+(defvar name "")
+(setq name "zhang")
+(insert "Hello" name)
+(other-window 1))
+
+(progn
+(defun greeting (from-name)
+ (let ((your-name (read-from-minibuffer "Enter your name:")))
+ (switch-to-buffer-other-window "*test*")
+ (erase-buffer)
+ (insert (format "Hello %s!\n\nI am %s." your-name from-name))
+ (other-window 1)
+ )
+)
+
+(greeting "zhang"))
+
+(progn
+(defun hello (name)
+(insert (format "Hello %s!\n" name))
+)
+(switch-to-buffer-other-window "*test*")
+(erase-buffer)
+(setq list-of-name '("li" "xi" "ming"))
+'(car list-of-name)
+(cdr list-of-name)
+(push "me" list-of-name)
+(mapcar 'hello list-of-name)
+)
+
+(progn
+(defun replace-buffer()
+(switch-to-buffer-other-window "*test*")
+(goto-char(point-min))
+(while(search-forward "Hello" nil t)
+(replace-match "Welcome"))
+(other-window 1)
+)
+(replace-buffer)
+)
+
+(progn
+(defun boldname()
+(switch-to-buffer-other-window "*test*")
+(goto-char(point-min))
+(while(re-search-forward "Welcome \\(.+\\)!" nil t)
+(add-text-properties (match-beginning 1)
+(match-end 1)(list 'face 'bold))
+)
+(other-window 1)
+)
+(boldname)
+)
