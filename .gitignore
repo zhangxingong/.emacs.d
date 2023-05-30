@@ -8,4 +8,5 @@ auto-save-list
 org-persist
 image-dired
 .git
+.org-id-locations
 eln-cache
