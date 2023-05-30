@@ -234,9 +234,9 @@
 (define-key minibuffer-local-map (kbd "C-r") 'counsel-minibuffer-history)
 (setq ivy-use-selectable-prompt t)
 
-(defun reload-custom-config()
-  (interactive)
-  (load-file "~/.emacs.d/init.el"))
+;;(defun reload-custom-config()
+;;  (interactive)
+;;  (load-file "~/.emacs.d/init.el"))
 
 ;; TODO mode
 (setq todo-file-do "~/.emacs.d/todo-do")
