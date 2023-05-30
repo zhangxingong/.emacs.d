@@ -5,5 +5,7 @@
 recentf
 cache
 auto-save-list
+org-persist
+image-dired
 .git
 eln-cache
