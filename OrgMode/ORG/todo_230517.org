@@ -9,10 +9,41 @@
 
 * Event
 **  正式论坛回答用id创建时间排序产生混乱
-DEADLINE: <2023-05-17 周三 10:58>
+DEADLINE: <2023x-05-17 周三 10:58>
  产生原因hibernate.sequence有个20个的缓存
  不同服务同时取id造成的不一致
 [2023-05-17 周三 10:48]
 **
 [2023-05-17 周三 14:19]
 * Note
+** CMD
+条件
+if /i NOT ERRORLEVEL NUMBER
+if NOT Defined var
+if NOT string1 == string2
+if exist filename () else ()
+循环
+for %%i in () do
+for /d in（）do
+for /l in() do
+for /r in() do
+for /f "eol skip delims tokens usebackq usebackq" in() do
+setlocal con
+endlocal
+** VB
+Option Explicit
+模块 Module
+过程 Sub
+函数 Function ParamArray
+类型 Class
+循环 do while/Until  loop
+while for  = to step for in
+for each in array
+next
+** ELisp
+
+
+** 计算机核心理论
+*** 链接
+*** ***[[https://zilongshanren.com/post/how-to-self-learning-cs/][子龙山人]]
+*** CS[[eww:https://csdiy.wiki/CS%E5%AD%A6%E4%B9%A0%E8%A7%84%E5%88%92/][一个仅供参考的 CS 学习规划]]
