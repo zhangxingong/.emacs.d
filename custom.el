@@ -453,7 +453,7 @@
 (defun diary-workon ()
      (with-temp-buffer
        (insert "上班 08:30am")
-       (message (buffer-string))
+       ;;(message (buffer-string))
        (buffer-string)))
 
 (defun diary-workoff ()
